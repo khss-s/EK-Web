@@ -151,7 +151,7 @@ html, body{
 
 .vidprev h1{
     margin-right: 20px;
-    margin-left: 5px;
+    margin-left: 0px;
     padding: 25px;
     width: 20vw;
     height: 80vh;
@@ -205,4 +205,36 @@ html, body{
     padding: 7px 14px 7px 14px;
     margin: 5px;
     border-radius: 25px;
+}
+
+.rides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background{
+    background: #7d12ff;
+    height: auto;
+    width: 92vw;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.background h1{
+    padding: 20px 0px 10px 50px;
+    color: #fff;
+    font-size: 55px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery img{
+    margin-bottom: 10px;
+    max-width: 21.8vw;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
