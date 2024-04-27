@@ -99,8 +99,8 @@ html, body{
     }
 }
 
-.middle{
-    min-height: 100vh;
+.vidprev{
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -110,14 +110,15 @@ html, body{
     margin-left: 30px;
     margin-right: 5px;
     width: 70vw;
-    height: auto;
+    height: 80vh;
     overflow: hidden;
     position: relative;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .container img{
     width: 100%;
-    border-radius: 25px;
 }
 
 .caption{
@@ -126,7 +127,7 @@ html, body{
     left: 0;
     letter-spacing: 1px;
     background-color: black;
-    height: 98.7%;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -148,14 +149,59 @@ html, body{
     border-radius: 25px;
 }
 
-.middle h1{
+.vidprev h1{
     margin-right: 20px;
     margin-left: 5px;
     padding: 25px;
     width: 20vw;
-    height: 85vh;
+    height: 80vh;
     background: #7d12ff;
     color: #fff;
     font-size: 35px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.middle{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    background: #379237;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card img{
+    width: 45vw;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.info{
+    width: 45vw;
+    padding: 25px;
+    color: black;
+}
+
+.info h1{
+    font-size: 35px;
+}
+
+.tags{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.tags p{
+    background: black;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
     border-radius: 25px;
 }
