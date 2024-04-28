@@ -135,7 +135,7 @@ header a img:hover{
 
 .contacts{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: left;
 }
 
@@ -145,7 +145,7 @@ header a img:hover{
 }
 
 .contacts img{
-    margin: 0 0 0 9px;
+    margin: 0 0 9px 9px;
     padding: 3px;
     width: 27px;
     filter: invert(100%);
