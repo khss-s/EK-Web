@@ -149,6 +149,10 @@ html, body{
     justify-content: space-evenly;    
 }
 
+.playalign a{
+    text-decoration: none;
+}
+
 .playalign button{
     padding: 10px;
     font-size: 15px;
@@ -272,3 +276,4 @@ html, body{
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
