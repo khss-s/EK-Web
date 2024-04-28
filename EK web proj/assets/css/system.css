@@ -161,5 +161,10 @@ header a img:hover{
     padding: 3px;
     width: 32px;
     filter: invert(100%);
+    transition: all .3s;
+}
+
+.socmed a img:hover{
+    scale: 110%;
 }
 /*FOOTER*/
