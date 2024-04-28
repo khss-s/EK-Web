@@ -187,17 +187,20 @@ html, body{
     border-radius: 25px;
 }
 
-.vidprev h1{
+.vidinfo{
     margin-right: 20px;
     margin-left: 0px;
     padding: 25px;
     width: 20vw;
     height: 80vh;
     background: #7d12ff;
-    color: #fff;
-    font-size: 35px;
     border-radius: 25px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.vidinfo h1{
+    color: #fff;
+    font-size: 37px;
 }
 
 .middle{
@@ -277,3 +280,44 @@ html, body{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#arrow1 img{
+    margin: 0 0 0 5px;
+    height: 45px;
+    width: 45px;
+    filter: invert(100%);
+    transform: rotate(-45deg);
+    transition: all 0.3s;
+}
+
+#arrow1 img:hover{
+    transform: rotate(0deg);
+}
+
+#arrow2 img{
+    margin: 0 0 0 10px;
+    width: 32px;
+    transform: rotate(-45deg);
+    transition: all 0.3s;
+}
+
+#arrow2 img:hover{
+    transform: rotate(0deg);
+}
+
+#arrow3 img{
+    margin: 8px 0 0 10px;
+    width: 45px;
+    filter: invert(100%);
+    transform: rotate(-45deg);
+    transition: all 0.3s;
+}
+
+#arrow3 img:hover{
+    transform: rotate(0deg);
+}
