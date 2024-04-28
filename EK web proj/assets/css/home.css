@@ -119,7 +119,19 @@ html, body{
 
 .vidinfo h1{
     color: #fff;
-    font-size: 37px;
+    font-size: 36.5px;
+}
+
+.vidinfo img{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    transform: rotate(-45deg);
+    transition: all 0.3s;
+}
+
+.vidinfo img:hover{
+    transform: rotate(0deg);
 }
 
 .container{
