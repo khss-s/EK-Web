@@ -106,6 +106,22 @@ html, body{
     justify-content: space-evenly;
 }
 
+.vidinfo{
+    margin-right: 20px;
+    margin-left: 0px;
+    padding: 25px;
+    width: 20vw;
+    height: 80vh;
+    background: #7d12ff;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.vidinfo h1{
+    color: #fff;
+    font-size: 37px;
+}
+
 .container{
     margin-left: 30px;
     margin-right: 5px;
@@ -185,22 +201,6 @@ html, body{
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.40);
     border-radius: 25px;
-}
-
-.vidinfo{
-    margin-right: 20px;
-    margin-left: 0px;
-    padding: 25px;
-    width: 20vw;
-    height: 80vh;
-    background: #7d12ff;
-    border-radius: 25px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.vidinfo h1{
-    color: #fff;
-    font-size: 37px;
 }
 
 .middle{
