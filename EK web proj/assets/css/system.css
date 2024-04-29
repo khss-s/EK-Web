@@ -37,7 +37,7 @@ header a img:hover{
 .navbar{
     margin: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 1.2rem;
     padding: 12px 19px;
     text-decoration: none;
     border-radius: 25px;
@@ -52,7 +52,7 @@ header a img:hover{
 .active{
     margin: 10px;
     color: black;
-    font-size: 20px;
+    font-size: 1.2rem;
     padding: 12px 19px;
     text-decoration: none;
     border-radius: 25px;
@@ -65,7 +65,7 @@ header a img:hover{
     margin: 10px;
     padding: 0 19px;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 1.2rem;
     background-color: transparent;
     color: white;
     border-style: solid;
@@ -105,7 +105,7 @@ header a img:hover{
 }
 
 .bottom p{
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .column1{
@@ -141,7 +141,7 @@ header a img:hover{
 
 .contacts p{
     margin: 0 0 7px 7px;
-    font-size: 10.8px;
+    font-size: 0.673rem;
 }
 
 .contacts img{

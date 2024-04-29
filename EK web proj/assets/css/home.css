@@ -27,7 +27,7 @@ html, body{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 50px;
+    font-size: 4rem;
     color: white;
 }
 
@@ -41,7 +41,7 @@ html, body{
     border-style: solid;
     border-color: white;
     border-radius: 25px;
-    font-size: 16px;
+    font-size: 1rem;
     transition: all .4s;
     cursor: pointer;
 }
@@ -65,12 +65,12 @@ html, body{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 70px;   
+    font-size: 5rem;   
 }
 
 .intro1 p{
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .scroll-reveal span{
@@ -119,19 +119,7 @@ html, body{
 
 .vidinfo h1{
     color: #fff;
-    font-size: 36.5px;
-}
-
-.vidinfo img{
-    width: 30px;
-    height: 30px;
-    filter: invert(100%);
-    transform: rotate(-45deg);
-    transition: all 0.3s;
-}
-
-.vidinfo img:hover{
-    transform: rotate(0deg);
+    font-size: 2.3rem;
 }
 
 .container{
@@ -168,7 +156,7 @@ html, body{
 }
 
 .caption h2{
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .play{
@@ -183,7 +171,7 @@ html, body{
 
 .playalign button{
     padding: 10px;
-    font-size: 15px;
+    font-size: 1rem;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -242,7 +230,7 @@ html, body{
 }
 
 .info h1{
-    font-size: 35px;
+    font-size: 2rem;
 }
 
 .tags{
@@ -253,7 +241,7 @@ html, body{
 
 .tags p{
     background: black;
-    font-size: 18px;
+    font-size: 1rem;
     color: #fff;
     padding: 7px 14px 7px 14px;
     margin: 5px;
@@ -277,7 +265,7 @@ html, body{
 .background h1{
     padding: 20px 0px 10px 50px;
     color: #fff;
-    font-size: 55px;
+    font-size: 4rem;
 }
 
 .gallery{
@@ -298,16 +286,15 @@ html, body{
     justify-content: left;
 }
 
-#arrow1 img{
-    margin: 0 0 0 5px;
-    height: 45px;
-    width: 45px;
+#arrow1{
+    width: 30px;
+    height: 30px;
     filter: invert(100%);
     transform: rotate(-45deg);
     transition: all 0.3s;
 }
 
-#arrow1 img:hover{
+#arrow1:hover{
     transform: rotate(0deg);
 }
 
