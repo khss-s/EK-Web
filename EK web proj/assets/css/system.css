@@ -63,7 +63,7 @@ header a img:hover{
     width: auto;
     height: 50px;
     margin: 10px;
-    padding: 0 19px;
+    padding: 0 1em 0 1em;
     border-radius: 25px;
     font-size: 1.2rem;
     background-color: transparent;
