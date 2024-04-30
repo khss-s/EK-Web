@@ -100,15 +100,13 @@ html, body{
 }
 
 .vidprev{
-    margin-top: 20px;
+    margin: 20px 45px 0 45px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .vidinfo{
-    margin-right: 20px;
-    margin-left: 0px;
     padding: 25px;
     width: 20vw;
     height: 80vh;
@@ -123,8 +121,6 @@ html, body{
 }
 
 .container{
-    margin-left: 30px;
-    margin-right: 5px;
     width: 70vw;
     height: 80vh;
     overflow: hidden;
@@ -134,6 +130,7 @@ html, body{
 }
 
 .container img{
+    height: 100%;
     width: 100%;
 }
 
