@@ -24,7 +24,7 @@ html, body{
 }
 
 .explore h1{
-    font-family: "Poppins", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 4rem;
@@ -62,7 +62,7 @@ html, body{
 }
 
 .intro1 h1{
-    font-family: "Poppins", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 5rem;   
