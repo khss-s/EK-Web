@@ -59,6 +59,21 @@ header a img:hover{
     background-color: white;
 }
 
+.activetickets button{
+    width: auto;
+    height: 50px;
+    margin: 10px;
+    padding: 0 1em 0 1em;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    background-color: #5d20d3;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
 .tickets button{
     width: auto;
     height: 50px;
